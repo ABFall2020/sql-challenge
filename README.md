@@ -6,11 +6,11 @@ This project utilizes Data Engineering and Data Analysis to build a SQL database
 
 ## This project is divided into three parts: 
 
-### Data Modeling
+### Data Modeling:
 Sketch an Enitity Relationship Diagram based on the provided CSV files in the data folder.
 ## - This is shown in the employee-ERD.jpg file in the EmployeeSQL folder
 
-### Data Engineering
+### Data Engineering:
 Using the provided information to create a table schema for each of the six CSV files and specify data types, primary keys, foreign keys, and other constraints.
   - For the primary keys, verify that the column is unique. Otherwise, create a composite keyLinks to an external site., which takes two primary keys to uniquely identify a row.
   - Be sure to create tables in the correct order to handle foreign keys.
@@ -18,7 +18,7 @@ Using the provided information to create a table schema for each of the six CSV 
 Import each CSV file into the corresponding SQL table and make sure to import the data in the same order that the tables were created.
 ## - These are performed in the schema.sql file in the EmployeeSQL folder.
   
-### Data Analysis
+### Data Analysis:
 - List the employee number, last name, first name, sex, and salary of each employee.
 - List the first name, last name, and hire date for the employees who were hired in 1986.
 - List the manager of each department along with their department number, department name, employee number, last name, and first name.
